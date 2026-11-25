@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Hafiz Aditya Rifa — Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="portfolio2.css" />
+</head>
+<body>
+
+  <!-- Tombol menu (hanya muncul di HP) -->
+  <header class="topbar">
+    <a href="#home" data-scroll class="topbar__name">HAFIZ ADITYA RIFA<span>.</span></a>
+    <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+ 
+  <aside class="sidebar" id="sidebar">
+    <!-- [GANTI FOTO] Foto kecil di sidebar. Pakai foto yang sama dengan hero juga boleh.
+         Simpan di images/foto-profil.jpg (disarankan rasio kotak 1:1) -->
+    <div class="sidebar__photo">
+      <img src="images/WhatsApp Image 2026-11-23 at 12.46.35 PM.jpeg" alt="Foto NAMA" onerror="this.style.display='none'" />
+    </div>
+
+    <nav class="menu" aria-label="Navigasi utama">
+      <a href="#home" data-scroll class="active">Home</a>
+      <a href="#about" data-scroll>About Me</a>
+      <a href="#Education" data-scroll>Education</a>
+      <a href="#portfolio" data-scroll>Portfolio</a>
+      <a href="#testimonials" data-scroll>Testimonials</a>
+      <a href="#contact" data-scroll>Contact</a>
+      
+    </nav>
+
+    <p class="sidebar__foot">© 2026 Apiss</p>
+  </aside>
+
+  <!-- =====================================================
+       STRIP IKON KANAN
+       Ikon dari simpleicons.org. Ganti username/link di href.
+       ===================================================== -->
+  <aside class="rail" aria-label="Media sosial">
+    <a href="https://github.com/USERNAME" target="_blank" rel="noopener" aria-label="GitHub"><img src="https://cdn.simpleicons.org/github/121212" alt="" /></a>
+    <a href="https://www.linkedin.com/in/hafiz-rifa-03a351383?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="https://api.iconify.design/mdi/linkedin.svg?color=%230A66C2" alt="LinkedIn" />
+    <a href="https://www.instagram.com/hafizaditt?utm_source=qr&jplx=MWU2eTBmZnUwOHJyeQ=" target="_blank" rel="noopener" aria-label="Instagram"><img src="https://cdn.simpleicons.org/instagram/121212" alt="" /></a>
+    <a href="mailto:hafizaditya56@gmail.com" aria-label="Email"><img src="https://cdn.simpleicons.org/gmail/121212" alt="" /></a>
+  </aside>
+
+  <main>
+
+    <!-- =====================================================
+         HOME / HERO
+         ===================================================== -->
+    <section class="hero" id="home">
+      <div class="hero__text">
+        <p class="hero__hi">HI THERE!</p>
+        <!-- [GANTI] Nama Anda (huruf kapital) -->
+        <h1 class="hero__title">I'M <span class="hl">Hafiz</span></h1>
+        <!-- [GANTI] Profesi / posisi -->
+        <p class="hero__role">Software Developer & Professional MLBB Player</p>
+        <a href="#portfolio" data-scroll class="btn">Achievements</a>
+      </div>
+
+      <!-- [GANTI FOTO] Foto besar hero: images/foto-hero.jpg
+           Disarankan foto potret, tinggi ± 1000px. -->
+      <div class="hero__photo">
+        <img src="images/IMG_20260320_143400.jpg" alt="Foto NAMA" onerror="this.style.display='none'" />
+      </div>
+    </section>
+
+    <!-- =====================================================
+         ABOUT ME
+         ===================================================== -->
+    <section class="section" id="about">
+      <h2 class="box-title">ABOUT ME</h2>
+
+      <div class="about">
+        <div>
+          <!-- [GANTI] Perkenalan singkat. Nama tebal pakai <strong> -->
+          <p class="lead">Saya <strong>Hafiz Aditya Rifa</strong>, Seorang Software Developer dan Professional MLBB Player.</p>
+          <p>
+            Saya memiliki pengalaman dalam mengembangkan aplikasi web dan desktop, serta memiliki kemampuan dalam pemrograman dan pengelolaan basis data. Saya memiliki sisi lain yang agak melenceng tapi gapapa, yaitu saya juga seorang Penjoki ML. Saya lumayan berpengalaman di dalam dunia game khususnya Mobile Legends, dan saya juga memiliki pengalaman dalam mengembangkan strategi permainan yang efektif. Saya selalu berusaha untuk terus belajar dan mengembangkan diri dalam bidang teknologi dan game.
+          </p>
+
+          <!-- [GANTI] Angka & label statistik -->
+          <ul class="stats">
+            <li><b>15+</b><span>Proyek</span></li>
+            <li><b>3</b><span>Prestasi</span></li>
+            <li><b>2+</b><span>Tahun Belajar</span></li>
+            <li><b>10+</b><span>Teknologi</span></li>
+          </ul>
+        </div>
+
+        <!-- [GANTI] Daftar "What I Do" -->
+        <div class="panel">
+          <h3>What I Do</h3>
+          <ul class="dolist">
+            <li><b>Web Development</b><span>Membuat website yang responsif dengan HTML, CSS, dan JavaScript.</span></li>
+            <li><b>Database</b><span>Merancang dan mengelola data dengan MySQL..</span></li>
+            <li><b>Gaming</b><span>Merancang strategi permainan yang efektif khususnya di Mobile Legends.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         Education
+         ===================================================== -->
+    <section class="section" id="Education">
+      <h2 class="box-title">Education</h2>
+
+      <div class="Education">
+        <!-- [GANTI] Pendidikan. Salin <li> untuk menambah -->
+        <div class="panel">
+          <h3>Pendidikan</h3>
+          <ul class="timeline">
+            <li><small>2025 — Now</small><b>D4 Teknologi Rekayasa Perangkat Lunak</b><span>Polytechnic Indonusa</span></li>
+            <li><small>2022 — 2025</small><b>Vocational High School - Visual Communication Design</b><span>SMK Negeri 3</span></li>
+          </ul>
+        </div>
+
+        <!-- [GANTI] Pengalaman / organisasi -->
+        <div class="panel">
+          <h3>Pengalaman</h3>
+          <ul class="timeline">
+            <li><small>2023</small><b>MLBB Player</b><span>IMC Insomniac Magic</span></li>
+            <li><small>2022</small><b>Gitaris, Bass</b><span>Diaetnika</span></li>
+          </ul>
+        </div>
+
+        <!-- [GANTI] Skill. Ubah angka --v untuk persentase bar -->
+        <div class="panel panel--wide">
+          <h3>Keahlian</h3>
+          <ul class="bars">
+            <li style="--v:90%"><span>HTML &amp; CSS</span><i></i></li>
+            <li style="--v:75%"><span>JavaScript</span><i></i></li>
+            <li style="--v:70%"><span>Java</span><i></i></li>
+            <li style="--v:65%"><span>MySQL</span><i></i></li>
+            <li style="--v:60%"><span>Figma</span><i></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         PORTFOLIO (ada filter + lightbox)
+         Kategori: ganti data-category di tiap item
+         ("graphic" atau "web"), dan teks tombol filter di bawah.
+         ===================================================== -->
+    <section class="section" id="portfolio">
+      <h2 class="box-title">PORTFOLIO</h2>
+
+      <div class="filters" id="filters">
+        <button class="on" data-filter="all">ALL</button>
+        <button data-filter="web">Kejuaraan</button>
+        <button data-filter="graphic">Tipis-Tipis</button>
+      </div>
+
+      <div class="grid" id="grid">
+        <!-- [GANTI FOTO] images/karya-1.jpg s/d karya-6.jpg (rasio 4:3). Salin <figure> untuk menambah. -->
+        <figure class="work" data-category="web" tabindex="0" role="button">
+          <img src="images/WhatsApp Image 2026-11-24 at 2.47.06 PM (1).jpeg" alt="Karya 1" loading="lazy" onerror="this.style.display='none'" />
+          <figcaption><b>Juara 1 MLBB SMA/SMK se Kota Surakarta</b><span>MLBB · 2023</span></figcaption>
+          <p class="work__detail" hidden>Deskripsi lengkap karya ini untuk ditampilkan di pop-up.</p>
+        </figure>
+        <figure class="work" data-category="web" tabindex="0" role="button">
+          <img src="images/WhatsApp Image 2026-11-24 at 2.47.06 PM.jpeg" alt="Karya 2" loading="lazy" onerror="this.style.display='none'" />
+          <figcaption><b>Juara 2 MLBB Pelajar se Kota Surakarta</b><span>MLBB · 2024</span></figcaption>
+          <p class="work__detail" hidden>Deskripsi lengkap karya ini.</p>
+        </figure>
+        <figure class="work" data-category="graphic" tabindex="0" role="button">
+          <img src="images/gitar 2.jpeg" alt="Karya 3" loading="lazy" onerror="this.style.display='none'" />
+          <figcaption><b>Bulan Bahasa SMK Negeri 3</b><span>Bassist · 2024</span></figcaption>
+          <p class="work__detail" hidden>Deskripsi lengkap karya ini.</p>
+        </figure>
+        <figure class="work" data-category="graphic" tabindex="0" role="button">
+          <img src="images/gitar 1.jpeg" alt="Karya 4" loading="lazy" onerror="this.style.display='none'" />
+          <figcaption><b>Kreasso 2022</b><span>Bassist · 2022</span></figcaption>
+          <p class="work__detail" hidden>Deskripsi lengkap karya ini.</p>
+        </figure>
+        <figure class="work" data-category="web" tabindex="0" role="button">
+          <img src="images/WhatsApp Image 2026-11-24 at 2.48.18 PM.jpeg" alt="Karya 5" loading="lazy" onerror="this.style.display='none'" />
+          <figcaption><b>Juara 1 dan 2 Tournament PCNU Surakarta</b><span>MLBB · 2026</span></figcaption>
+          <p class="work__detail" hidden>Deskripsi lengkap karya ini.</p>
+        </figure>
+        <figure class="work" data-category="graphic" tabindex="0" role="button">
+          <img src="images/WhatsApp Image 2026-11-24 at 2.54.18 PM.jpeg" alt="Karya 6" loading="lazy" onerror="this.style.display='none'" />
+          <figcaption><b>Hut SMK Negeri 3</b><span>Graphic Design · 2023</span></figcaption>
+          <p class="work__detail" hidden>Deskripsi lengkap karya ini.</p>
+        </figure>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         TESTIMONIALS
+         [GANTI] Isi kutipan, nama, dan jabatan. Inisial di lingkaran = huruf pertama nama.
+         ===================================================== -->
+    <section class="section" id="testimonials">
+      <h2 class="box-title">TESTIMONIALS</h2>
+
+      <div class="quotes">
+        <blockquote class="panel">
+          <p>"Tulis testimoni dari dosen, teman tim, atau klien di sini. Satu sampai dua kalimat sudah cukup."</p>
+          <footer><i>A</i><div><b>Nama Pemberi Testimoni</b><span>Jabatan / Instansi</span></div></footer>
+        </blockquote>
+        <blockquote class="panel">
+          <p>"Testimoni kedua. Bisa tentang kerja sama tim, kualitas hasil, atau ketepatan waktu."</p>
+          <footer><i>B</i><div><b>Nama Pemberi Testimoni</b><span>Jabatan / Instansi</span></div></footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         CONTACT
+         ===================================================== -->
+    <section class="section" id="contact">
+      <h2 class="box-title">CONTACT</h2>
+
+      <div class="contact">
+        <div class="panel">
+          <h3>Mari Berkolaborasi</h3>
+          <p>Punya ide proyek atau sekadar ingin menyapa? Silakan hubungi saya.</p>
+          <!-- [GANTI] Email, telepon, lokasi -->
+          <ul class="info">
+            <li><b>Email</b><a href="mailto:emailanda@gmail.com">emailanda@gmail.com</a></li>
+            <li><b>WhatsApp</b><span>+62 8xx xxxx xxxx</span></li>
+            <li><b>Lokasi</b><span>Indonesia</span></li>
+          </ul>
+        </div>
+
+        <!-- Form ini membuka aplikasi email pengunjung (tanpa server) -->
+        <form class="panel form" id="form">
+          <label>Nama <input name="nama" required /></label>
+          <label>Email <input name="email" type="email" required /></label>
+          <label>Pesan <textarea name="pesan" rows="4" required></textarea></label>
+          <button class="btn" type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+
+      <p class="thanks">MATUR NUWUN.</p>
+    </section>
+  </main>
+
+  <!-- Lightbox portfolio (jangan dihapus) -->
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lbTitle">
+    <button class="lightbox__close" id="lbClose" aria-label="Tutup">✕</button>
+    <img id="lbImg" src="" alt="" />
+    <div class="lightbox__info">
+      <h3 id="lbTitle"></h3>
+      <p id="lbMeta" class="muted"></p>
+      <p id="lbDetail"></p>
+    </div>
+  </dialog>
+
+  <script src="portfolio2.js"></script>
+</body>
+</html>
